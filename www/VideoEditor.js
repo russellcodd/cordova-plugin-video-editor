@@ -58,4 +58,14 @@ VideoEditor.prototype.execFFPROBE = function(success, error, options) {
   error(msg);
 };
 
+// Installation constructor that binds ToastyPlugin to window
+VideoEditor.install = function() {
+  if (!window.plugins) {
+    window.plugins = {};
+  }
+  window.plugins.videoEditor = new VideoEditor();
+  return window.plugins.videoEditor;
+};
+cordova.addConstructor(VideoEditor.install);
+
 module.exports = new VideoEditor();
