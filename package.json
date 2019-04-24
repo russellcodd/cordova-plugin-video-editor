@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jbavari/cordova-plugin-video-editor.git"
+    "url": "git+https://github.com/russellcodd/cordova-plugin-video-editor.git"
   },
   "contributors": [
     {
@@ -42,7 +42,7 @@
   "author": "Josh Bavari",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jbavari/cordova-plugin-video-editor/issues"
+    "url": "https://github.com/russellcodd/cordova-plugin-video-editor/issues"
   },
-  "homepage": "https://github.com/jbavari/cordova-plugin-video-editor#readme"
+  "homepage": "https://github.com/russellcodd/cordova-plugin-video-editor#readme"
 }
